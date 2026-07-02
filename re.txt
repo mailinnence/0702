@@ -3,6 +3,7 @@ git log --oneline -5
 git log --oneline
 git reflog
 
+
 # 특정 커밋으로 돌아가기
 git reset --hard d754b8d
 
@@ -14,6 +15,9 @@ git reset --hard a1b2c3d
 
 # 모든 커밋 삭제
 git reset --hard origin/main
+
+# 푸시
+git push origin main
 
 
 # 공장 초기화
